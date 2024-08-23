@@ -15,6 +15,7 @@ public class MiniProjectFormValidationsApplication {
 		ApplicationContext ctx=SpringApplication.run(MiniProjectFormValidationsApplication.class, args);
 		EmployeeValidator empval=ctx.getBean("empval",EmployeeValidator.class);
 		System.out.println(empval);
+		System.out.println("ashok");
 	}
 
 }
